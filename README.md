@@ -12,8 +12,6 @@ Le projet consiste à créer un quiz interactif en ligne axé sur le langage de 
 
 ## Technologies Utilisées
 - HTML, CSS et JavaScript pour le développement front-end.
-- Langage de programmation Java pour la logique du quiz et la gestion des questions/réponses.
-- Éventuellement, utilisation de bibliothèques ou de frameworks JavaScript pour améliorer l'interactivité (par exemple, React, Vue.js).
 
 ## Comment Exécuter le Projet Localement
 1. Clonez ce dépôt sur votre machine locale : `git clone https://github.com/OussamaCherkaoui/Quiz_Game.git`
