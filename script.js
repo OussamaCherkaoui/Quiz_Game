@@ -19,8 +19,8 @@ var scorePlayer = 0;
 let choice = null;
 
 
-const contentGame = document.createElement('div');
-contentGame.className='contentGame';
+const contentStart = document.createElement('div');
+contentStart.className='contentStart';
 
 const infogame = document.createElement('div');
 infogame.className='infogame';
@@ -208,12 +208,12 @@ const showGame=()=>{
 
     NextQuestion.appendChild(ButtonNext);
 
-    contentGame.appendChild(infogame);
-    contentGame.appendChild(Question);
-    contentGame.appendChild(Answer);
-    contentGame.appendChild(NextQuestion);
+    contentStart.appendChild(infogame);
+    contentStart.appendChild(Question);
+    contentStart.appendChild(Answer);
+    contentStart.appendChild(NextQuestion);
     
-    contentQuiz.appendChild(contentGame);
+    contentQuiz.appendChild(contentStart);
 }
 
 const win = () =>{

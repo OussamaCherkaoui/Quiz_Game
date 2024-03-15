@@ -327,3 +327,335 @@ body{
     font-weight: 600;
 }
 
+@media screen and (max-width: 767px) {
+    body{
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    .Quiz{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo>img{
+        width: 30px;
+        height: 30px;
+    }
+    .navbar{
+        padding: 6px 20px ;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+    .nameOfpage{
+        font-size: 16px;
+        font-weight: 550;
+    }
+    .ContentGame{
+        padding: 6px 0px 2px 0px;
+        background-image: url(./Pictures/BackgroundGame.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height:  95.5vh;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 95px;
+    }
+    .pictureJava>img,.pictureQuiz>img{
+        width: 30px;
+        height: 30px;
+    }
+    .iconbutton>img{
+        width: 30px;
+        height: 30px;
+    }
+    .ContenuDescription{
+        background-color: #e2f7ffc2;
+        width: 255px;
+        height: 222px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 12px 0px;
+        border-radius: 10%;
+        border: 2px solid white;
+    }
+    .description{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 9px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .description2{
+        display: flex;
+        flex-flow: row wrap;
+        align-items:center;
+        justify-content:space-between;
+        gap: 80px;
+    }
+    .pictureDescription{
+        display: inline-block;
+        position:absolute;
+        top: 22%;
+        left: 61%;
+    }
+    .pictureDescription>img{
+        width: 154px;
+        height: 254px;
+    }
+    .WelcomeGame{
+        display: flex;
+        flex-flow: column wrap;
+        font-size: 22px;
+        color: white;
+        font-weight: bold;
+    }
+    .Joinus{
+        font-size: 13px;
+        font-weight: bold;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    
+    }
+    .Start>button{
+        width: 231px;
+        height: 36px;
+        border-style: none;
+        border-radius: 25px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 21px;
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #aad9f6;
+        transition: background-color 0.5s ease-in-out;
+    }
+    .Start>button:hover{
+        background-color: cornflowerblue;
+    }
+    .Start{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Start Game */
+
+.contentStart{
+    padding: 2px 20px;
+    background-color: rgba(59, 68, 112, 0.53);
+    width: 80%;
+    height: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 59px;
+    border-top: white 13px solid;
+}
+#ButtonNext{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 162px;
+    height: 44px;
+    background-color: #A80A56;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+#ButtonNext:hover{
+    background-color: #58002b;
+}
+.iconNext>img{
+    width: 30px;
+    height: 30px;
+}
+.infogame{
+    display: flex;
+    flex-flow: row wrap;
+}
+.levelQuestion{
+    font-size: 18px;
+    font-weight: bold;
+}
+.Question{
+    font-size: 16px;
+    font-weight: 600;
+}
+.score{
+    position:absolute;
+    top: 22%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    width: 78px;
+    height: 39px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Answer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#Answer1,#Answer2,#Answer3{
+    width: 266px;
+    height: 55px;
+    background-color: #245B9B;
+    border-style: none;
+    border-radius: 4px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+#Answer1:hover,#Answer2:hover,#Answer3:hover{
+    border: 2px solid wheat;
+}
+
+/* Result Game */
+
+
+.result{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+.titleResult{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    BACKGROUND-COLOR: black;
+    padding: 18px 46px;
+    position: absolute;
+    top: 21%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contentResult{
+    margin-top: 0px;
+    padding: 77px 19px 61px;
+    background-color: rgba(0, 59, 78, 0.6);
+    width: 271px;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.iconMessage>img{
+    width: 40px;
+    height: 40px;
+}
+.iconRestart>img{
+    width: 40px;
+    height: 40px;
+}
+.messageResult{
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+}
+.iconLow{
+    width: 35px;
+    height: 35px;
+    background-color: #FF0000;
+    border-radius: 50%;
+}
+.iconmedium{
+    width: 35px;
+    height: 35px;
+    background-color: #FF7A00;
+    border-radius: 50%;
+}
+.iconhigh{
+    width: 35px;
+    height: 35px;
+    background-color: #7EFF2F;
+    border-radius: 50%;
+}
+.typeResult{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.low,.high,.medium{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+#buttonRestart{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    width: 219px;
+    height: 52px;
+    border-radius: 30px;
+    border-style: none;
+    BACKGROUND-COLOR: #aad9f6;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+#buttonRestart:hover{
+    background-color: cornflowerblue;
+    transition: background-color 0.6s ease-in-out;
+}
+.textMessage{
+    font-size: 17px;
+    font-weight: 500;
+}
+.OverallScore{
+    font-size: 17px;
+    font-weight: 700;
+}
+.points{
+    font-size: 2em;
+    font-weight: 600;
+}
+.resultLevel{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+}
