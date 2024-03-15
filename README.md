@@ -16,7 +16,7 @@ Le projet consiste à créer un quiz interactif en ligne axé sur le langage de 
 - Éventuellement, utilisation de bibliothèques ou de frameworks JavaScript pour améliorer l'interactivité (par exemple, React, Vue.js).
 
 ## Comment Exécuter le Projet Localement
-1. Clonez ce dépôt sur votre machine locale : `git clone https://github.com/votre-utilisateur/quiz-java`
+1. Clonez ce dépôt sur votre machine locale : `git clone https://github.com/OussamaCherkaoui/Quiz_Game.git`
 2. Ouvrez le fichier `index.html` dans votre navigateur web pour accéder au quiz.
 3. Assurez-vous d'avoir un environnement Java configuré si vous souhaitez ajouter des fonctionnalités plus avancées au quiz.
 
